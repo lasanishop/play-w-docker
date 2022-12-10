@@ -1,0 +1,11 @@
+docker build -t dj-docker-learning .
+
+docker images
+
+docker run -p 8000:8000 dj-docker-learning
+
+also
+
+docker run -it -p 8000:8000 dj-docker-learning
+
+in browser 127.0.0.1:8000
